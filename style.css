@@ -1,0 +1,139 @@
+body {
+    background-color: #70D6FF;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 40px;
+    margin-left: 40px;
+    width: 8%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 70px;
+    margin-left: 200px;
+    display: grid;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    padding: 10px;
+    height: 380px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+::placeholder { color: #0A3871;}
+  .text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    background: white;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 250px;
+    position: fixed;
+    height: 660px;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar:hover {
+    background-color: #FF99C8;
+}
+
+.btn-desencriptar:hover {
+    background-color: #FF99C8;
+}
+
+.btn-encriptar {
+    background: #FF70A6;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 360px;
+    font-size: 16px;
+}
+
+.btn-desencriptar {
+    background: #FF70A6;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 360px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.btn-borrar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #E9FF70;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 360px;
+    margin-left: 127px;
+    margin-top: 590px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.copiar:hover {
+    background-color: #FDFFB6;
+}
+
+.informacion {
+    color: #0A3871;
+    font-size: 14px;
+}
+
+
+.box-footer{
+    color: #0A3871;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: rgb(62, 214, 219);}
+}
+
+@media (max-width: 575.98px)and (orientation:portrait) {
+    body{background: #fca9d0;}
+}
